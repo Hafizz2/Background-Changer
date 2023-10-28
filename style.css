@@ -1,0 +1,40 @@
+#header{
+    background-color: rgb(192, 192, 182);
+    border:2px rgb(68, 39, 39);
+    height: 25px;
+    text-align: center;
+}
+
+a{
+    text-decoration:none;
+    padding: 80px;
+}
+
+#colors{
+    height: 100px;
+    width:100px;
+    border: 10px black solid;
+    border-radius: 100%;
+    margin-left: 200px;
+}
+#colors:hover{
+    box-shadow: 0 0 5px rgb(145, 0, 0), 0 0 25px rgb(148, 41, 41)
+    ,0 0 50px cyan,0 0 100px rgb(180, 10, 10), 0 0 200px cyan;
+}
+
+#h4{
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-shadow: 0 0 5px red;
+}
+#submit{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+    background-color: cyan;
+    margin-left: 220px;
+}
+
+#submit:hover{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan
+    ,0 0 50px cyan,0 0 100px cyan, 0 0 200px cyan;
+}
